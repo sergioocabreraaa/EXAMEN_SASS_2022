@@ -1,0 +1,41 @@
+/* ********* */
+/* @VARIABLES */
+/* ********* */
+
+
+// Colores
+$colores: (
+
+    blanco: #ffffff,
+    azul: #0282fa,
+    fondo: #f1f1f1,
+  
+
+    // map-get($colores, negro);
+);
+
+// Fuentes
+$arial: Arial;
+
+
+
+// Tamaños de fuente
+$sizes: (
+
+    h4: 40px,
+    texto: 19px,
+    boton: 15px
+    
+    // map-get($sizes, h4);
+);
+
+$margenes: (
+
+    parrafos: 30px,
+    lista: 30px,
+    titulo: 10px,
+    margenBloque: 100px 70px
+    
+    // map-get($sizes, h4);
+);
+

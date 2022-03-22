@@ -1,0 +1,76 @@
+/* ********* */
+/* @HOME */
+/* ********* */
+
+
+
+.bloqueUno{
+    display: flex;
+    margin: 20px 100px;
+    background-color: map-get($colores, fondo);
+
+   &__izquierda{
+    padding: map-get($margenes, margenBloque);
+   }
+   &__titulo{
+       padding-bottom: map-get($margenes, titulo);
+   }
+   &--p{
+    padding-top: map-get($margenes, parrafos);
+
+
+}
+}
+
+.bloqueDos{
+
+    display: flex;
+    margin: 10px 100px;
+
+   &__izquierda{
+    padding: map-get($margenes, margenBloque);
+      
+   }
+   &__titulo{
+       padding-bottom: map-get($margenes, titulo);
+   }
+   &--p{
+    padding-top: map-get($margenes, parrafos);
+    
+   }
+    &__lista{
+      padding-top: map-get($margenes, lista);
+      display: flex;
+      line-height : 2rem;
+      flex-direction: column;
+
+    }
+
+}
+
+//Parrafo azul
+.bloqueUno--pAzul{
+    margin-top: map-get($margenes, parrafos);
+    color: map-get($colores, azul);
+    padding: 2%;
+    border-left: 3px solid ;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

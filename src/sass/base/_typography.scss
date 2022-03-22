@@ -1,0 +1,22 @@
+/* ********* */
+/* @TYPOGRAPHY */
+/* ********* */
+html {
+    font-family: $arial;
+ 
+}
+
+h4{
+    font-size: map-get($sizes, h4);
+}
+
+p{
+    font-size:  map-get($sizes, texto);
+}
+
+
+li{
+    font-size:  map-get($sizes, texto);
+}
+
+
